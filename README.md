@@ -1,4 +1,4 @@
-# css-generator
+# css3-generator
 
 
 you can see the project working on: 
