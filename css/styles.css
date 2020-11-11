@@ -1,0 +1,48 @@
+@import './options.css';
+@import './container.css';
+@import './movil.css';
+* {
+    font-family: sans-serif;
+}
+*::selection {
+    background:#000000;;
+    color: white
+}
+body{
+    width: 100%;
+    display: flex; 
+    justify-content: flex-end;
+    overflow: hidden;
+}
+.workit {
+    width: 80%;
+    height: 100vh;
+}
+.header-container {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  white;
+    color: black;
+    border-bottom: solid 2px  black;
+    z-index: 100;
+}
+
+/* elements to edit in .div appearing dynamically */
+.txt-column{
+    font-size: 17px;
+    padding: 100px;
+}
+
+.txt-shadow {
+    font-size: 2em;
+    opacity: 0
+}
+.divChange {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(236, 230, 230);
+    transform: scale(0.0);
+}

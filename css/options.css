@@ -1,0 +1,41 @@
+.options {
+    width: 20%;
+    height: 100vh;
+    background: white;
+    overflow-y: scroll;
+    color:black;
+    z-index: 100;
+}
+.options-title {
+    width: 100%;
+    height: 50px;
+    font-size: 1.7rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px black;
+}
+.all-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: 1.1em;
+    z-index: 100;
+}
+.btn {
+    transition: all 500ms;
+    padding: 5px 10px 10px 5px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn:hover {
+    background-color:rgb(10, 132, 255);
+    transform: scale(1.06);
+    color: white
+}

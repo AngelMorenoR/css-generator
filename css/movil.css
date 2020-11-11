@@ -1,0 +1,69 @@
+@media (max-width: 785px) { 
+    .options-title{
+        cursor:pointer
+    }
+    .toggle{
+        z-index: 240;
+        opacity: 1 !important
+    }
+    .options{
+        overflow-y: hidden;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        transition: all  500ms;
+        opacity: 0;
+    }
+    .workit{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 99;
+        width: 100%
+    }
+    .header-container{
+        background-color: white;
+        color: black
+    }
+    .burger {
+        width: 25px;
+        height: 23px;
+        position: absolute;
+        top: 15px;
+        left: 16px;
+        z-index: 100;
+        cursor:pointer;
+    }
+    .line-burger {
+        width: 100%;
+        height: 5px;
+        background-color: black;
+        margin-bottom: 5px;
+        border-radius: 3px;
+    }
+    .options-title {
+        font-size: 1.1em;
+    }
+
+}
+
+@media (max-width: 875px) {
+    .choose{
+        font-size: 1.4em
+    }
+}
+@media (max-width: 875px) {
+    .all-options{
+        font-size: .8em
+    }
+}
+@media (max-width: 366px) {
+    .header-container {
+        font-size: 9px;
+    }
+    .choose {
+        font-size: 0.9em;
+    }
+}
