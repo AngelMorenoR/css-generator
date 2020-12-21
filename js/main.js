@@ -14,7 +14,7 @@ function main () {
 
 function listenerBtns(e) {
     let la = document.querySelectorAll('.btn')
-    la.forEach( e => e.style.border = '')
+    la.forEach( e => e.style.border = '1px solid white')
     const optionClick = e.path[0].innerHTML.toLowerCase()
     e.path[0].style.border = '1px solid black'
     if(container.innerText == 'choose an option') {
