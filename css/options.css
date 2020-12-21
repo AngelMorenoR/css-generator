@@ -26,7 +26,7 @@
 }
 .btn {
     transition-property: background;
-    transition-property: background;
+    transition-property: transform;
     transition-property: color;
     transition-duration: 500ms;
     padding: 5px 10px 10px 5px;
