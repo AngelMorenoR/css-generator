@@ -1,5 +1,16 @@
 # CSS3-generator
 
+A css3 generator to help when working with specific properties that no one remembers
 
-you can see the project working on: 
-[CSS3 generator](https://angelmorenor.github.io/css-generator/)
+## supported:
+  - Box Shadow.
+  - Border Radius. 
+  - RGBA. 
+  - Text Shadow.
+  - Gradient.
+  - Transform.
+  - Multipli Columns.
+  .
+
+
+you can see the project working on: https://angelmorenor.github.io/css-generator
