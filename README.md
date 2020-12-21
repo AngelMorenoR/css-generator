@@ -2,7 +2,11 @@
 
 A css3 generator to help when working with specific properties that no one remembers
 
+--------------------------------
+
 ![css generator screen](./img/generator.png)
+
+--------------------------------
 
 ## supported:
   - Box Shadow.
