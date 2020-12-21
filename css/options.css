@@ -25,7 +25,7 @@
     z-index: 100;
 }
 .btn {
-    transition: all 500ms;
+    transition: background 500ms;
     padding: 5px 10px 10px 5px;
     width: 80%;
     display: flex;
@@ -33,6 +33,7 @@
     align-items: center;
     cursor: pointer;
     border-radius: 10px;
+    border: solid 1px white;
 }
 .btn:hover {
     background-color:rgb(10, 132, 255);
