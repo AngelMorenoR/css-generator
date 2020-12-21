@@ -25,10 +25,8 @@
     z-index: 100;
 }
 .btn {
-    transition-property: background;
-    transition-property: transform;
-    transition-property: color;
     transition-duration: 500ms;
+    transition-property: background, color, transform 500ms;
     padding: 5px 10px 10px 5px;
     width: 80%;
     display: flex;
