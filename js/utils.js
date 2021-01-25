@@ -1,10 +1,13 @@
 function hexToRgb(hex){
+    
     if (hex.charAt(0) === '#') {
         hex = hex.substr(1);
     }
+    
     if ((hex.length < 2) || (hex.length > 6)) {
         return false;
     }
+    
     var values = hex.split(''),
         r,
         g,
@@ -25,10 +28,13 @@ function hexToRgb(hex){
     } else {
         return false;
     }
+    
+    
     return [r, g, b];
 }
 
 function addScripts(src, size){
+    
     if(window.innerWidth <= size){
         const script = document.createElement('script')
         script.setAttribute('src', src)
@@ -37,6 +43,7 @@ function addScripts(src, size){
 }
 
 function appendChildsTest(parent, childs = []) {
+    
     for (let i = 0; i < childs.length; i++) {
         const child = childs[i];
         parent.appendChild(child)
