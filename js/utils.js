@@ -86,7 +86,7 @@ function removeChilds(parent) {
     
 }
 function setAtrr(ele, props) {
-    if(ele != undefined && props != undefined){
+    if(ele != void 0 && props != void 0){
         for (const key in props) {
             ele.setAttribute(key, props[key] )
         }
