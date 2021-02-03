@@ -54,9 +54,9 @@ function appendElements(parent, child) {
 }
 function createDOMEl(type, cls, txt){
     let ele;
-    if(type != undefined){
+    if(type != void 0){
         ele = document.createElement(type);
-        if(cls != undefined){
+        if(cls != void 0){
             if(cls.includes(' ')){
                 clases = cls.split(' ')
                 clases.forEach((e) => {
@@ -66,7 +66,7 @@ function createDOMEl(type, cls, txt){
                 ele.classList.add(cls);
             }
         }
-        if(txt != undefined){
+        if(txt != void 0){
             ele.innerHTML = txt;
         }
     }else{
