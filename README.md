@@ -19,4 +19,4 @@ A css3 generator to help when working with specific properties that no one remem
   .
 
 
-**You can see the project working on:** https://angelmorenor.github.io/css-generator
+**You can see the project working on:** https://angel-moreno1.github.io/css-generator/
